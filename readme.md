@@ -40,6 +40,11 @@
 | `git commit -a -m "message"`   |  Stage all modified and deleted files that are already tracked by Git, and commit them with the specified message.| 
 | `git push`                     |  Pushes the current local branch to its configured remote/upstream branch. |
 | `git push origin <branch_name>`|  Pushes the local update-readme branch to the update-readme branch on the remote repository named origin.|
+| `git add --all`                |  Stages all new, modified, and deleted files in the entire repository.| 
+| `git stash`                    |  Saves your uncommitted changes and return to a clean working directory. |
+| `git stash pop`                |  Apply the latest stash and remove it from the stack. |
+| `git pull origin`              |  Pull all changes from a remote repository into the branch you are working on. |
+
 
 
 
