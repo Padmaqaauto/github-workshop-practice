@@ -36,6 +36,8 @@
 | `git push -u origin main`      |  Upload your local 'main' branch to the remote 'origin' |
 | `git branch <branchname>`      |  Creates a new branch with the "branchname" |
 | `git checkout <branchname>`    |  Moving us from the current branch, to the one specified at the end of the command. |
+| `git push --set-upstream origin`| Use this if your branch doesn't exist on GitHub yet, and you want to track it |
+| ``
 
 
 
