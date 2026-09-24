@@ -37,7 +37,9 @@
 | `git branch <branchname>`      |  Creates a new branch with the "branchname" |
 | `git checkout <branchname>`    |  Moving us from the current branch, to the one specified at the end of the command. |
 | `git push --set-upstream origin`| Use this if your branch doesn't exist on GitHub yet, and you want to track it |
-| ``
+| `git commit -a -m "message"`   |  Stage all modified and deleted files that are already tracked by Git, and commit them with the specified message.| 
+| `git push`                     |  Pushes the current local branch to its configured remote/upstream branch. |
+| `git push origin <branch_name>`|  Pushes the local update-readme branch to the update-readme branch on the remote repository named origin.|
 
 
 
