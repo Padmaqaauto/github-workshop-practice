@@ -40,6 +40,24 @@
 | `git commit -a -m "message"`   |  Stage all modified and deleted files that are already tracked by Git, and commit them with the specified message.| 
 | `git push`                     |  Pushes the current local branch to its configured remote/upstream branch. |
 | `git push origin <branch_name>`|  Pushes the local update-readme branch to the update-readme branch on the remote repository named origin.|
+| `git add --all`                |  Stages all new, modified, and deleted files in the entire repository.| 
+| `git stash`                    |  Saves your uncommitted changes and return to a clean working directory. |
+| `git stash pop`                |  Apply the latest stash and remove it from the stack. |
+| `git pull origin`              |  Pull all changes from a remote repository into the branch you are working on. |
+| `git revert HEAD`              |  Revert the latest commit |
+| `git restore readme.md`        |  Restore deleted or changed a file|
+| `git restore --staged <file>`  |  Unstage a file            |
+| `git reset --soft HEAD~1`      |  undo the last commit and keep your changes staged. |
+| `git log --stat`               |  To see which files changed in each commit |
+| `git stash push -m "message"`  |  Stash with a message |
+| `git stash list`               |  List all stashes          |
+| `git stash show`               |  Show stash details        | 
+| `git stash show -p`            |  Shows the exact lines that were changed in your most recent stash.|
+| `git stash apply`              |  Restores your most recent stashed changes, but keeps the stash in the list so you can use it again if needed.|
+| `git show <commit>`           |  Show details of a specific commit|
+ 
+
+
 
 
 
