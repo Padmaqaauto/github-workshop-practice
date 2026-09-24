@@ -1,18 +1,18 @@
 <!-- Headings -->
-# ![Git](https://img.icons8.com/?size=40&id=118557&format=png&color=000000) Git Practice Workshop Repository
+# ![Git](https://img.icons8.com/?size=40&id=118553&format=png&color=000000)***Git Practice Workshop Repository***
 
-## ![pin logo](https://img.icons8.com/?size=32&id=4WKEF9tBOcwU&format=png&color=000000) *About this Repository*
+## ![pin logo](https://img.icons8.com/?size=32&id=4WKEF9tBOcwU&format=png&color=000000)*About this Repository*
 
 #### This repository is created for practicing **Git Command**.
 
-## ![Task](https://img.icons8.com/?size=32&id=114424&format=png&color=000000) *Task 1:*
+## ![Task](https://img.icons8.com/?size=30&id=1TCX2ww987mj&format=png&color=000000)*Task 1:*
 
 1. Create Local repository.
 2. Connect to Github
 3. Track changes
 4. Ignoring files
 
-## ![Command](https://img.icons8.com/?size=32&id=RwJUiRfTpHii&format=png&color=000000) *Git Commands and their definitions*
+## ![Command](https://img.icons8.com/?size=30&id=GOJfNTFsVeOY&format=png&color=000000)*Git Commands and their definitions*
 
 | Command                        |  Definition  |
 | -----------------------------  | ------------ |
@@ -34,6 +34,10 @@
 | `git branch`                   |  To see all branches in your repository | 
 | `git branch -M main`           |  Rename your current Git branch to main |
 | `git push -u origin main`      |  Upload your local 'main' branch to the remote 'origin' |
+| `git branch <branchname>`      |  Creates a new branch with the "branchname" |
+| `git checkout <branchname>`    |  Moving us from the current branch, to the one specified at the end of the command. |
+
+
 
 
 
