@@ -3,7 +3,7 @@
 
 ## ![pin logo](https://img.icons8.com/?size=32&id=4WKEF9tBOcwU&format=png&color=000000)*About this Repository*
 
-#### This repository is created for practicing **Git Command**.
+#### This repository is created for practicing **Git Commands**.
 
 ## ![Task](https://img.icons8.com/?size=30&id=1TCX2ww987mj&format=png&color=000000)*Task 1:*
 
@@ -55,8 +55,16 @@
 | `git stash show -p`            |  Shows the exact lines that were changed in your most recent stash.|
 | `git stash apply`              |  Restores your most recent stashed changes, but keeps the stash in the list so you can use it again if needed.|
 | `git show <commit>`           |  Show details of a specific commit|
- 
-
+| `git switch -c <branch-name>` |  Creates a new branch and switches to it immediately.     |
+| `git remote set-url <remote-name> <repository-url>` | Changes the URL of an existing remote repository. Here, origin is changed to your GitHub repository. |
+| `git tag`                     |  Lists all tags available in the local repository.  |
+| `git log --oneline -<number>`  |  Displays the specified number of recent commits in a short, one-line format. |
+| `git tag <tag-name>`           |  Creates a tag named "tagname" pointing to the current commit.  |
+|`git show <tag-name>`           |  Displays information about the commit and changes associated with the specified tag. |
+| `git push <remote-name> <tag-name>` |  Pushes the specified tag from your local repository to the remote GitHub repository. |
+| `git switch --detach <tag-name>`    | Switches to the specified tag/version and puts Git into detached HEAD mode. |
+| `git commit --amend --no-edit`    | Add the changes to your previous commit and keeps the previous commit message unchanged |
+| `git push --force-with-lease origin main` | Push my updated main branch to GitHub and replace the previous version, but only if nobody else has changed it.|
 
 
 
